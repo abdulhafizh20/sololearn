@@ -1,0 +1,22 @@
+impor java.util.Scanner;
+
+kode anda pergi ke sini
+
+Program kelas publik {
+  public static void main(String[ ] args) {
+ Pemindai sc = Pemindai baru (System.in);
+        int x = sc.nextInt();
+        System.out.print(Converter.toBinary(x));
+    }
+}
+
+Konverter kelas publik {
+  public static String toBinary(int num) {
+ Biner string = "";
+ sementara(num > 0) {
+ biner = (num % 2) + biner;
+            num /= 2;
+        }
+ mengembalikan biner;
+    }
+}
